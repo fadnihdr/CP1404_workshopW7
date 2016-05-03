@@ -12,7 +12,7 @@ def process_line(line_data, word_dict):
         word = word.strip(string.punctuation)
         add_word(word, word_dict)
 
-word_dict = {} # defining a new dictionary
+word_dict = {}
 line_data = "this is a collection of words of nice words this is a fun thing it is"
 process_line(line_data, word_dict)
 
